@@ -15,7 +15,7 @@ function getSearchQuery() {
 
 
 async function searchbyapi(foundedMovie){
-    let api = `http://www.omdbapi.com/?t=${foundedMovie}&apikey=f4c43948`;
+    let api = `https://www.omdbapi.com/?t=${foundedMovie}&apikey=f4c43948`;
     let fetchit = await fetch(api);
     let convert = await fetchit.json();
 let lastSection = document.getElementsByClassName("section-searched-movie")[0];
