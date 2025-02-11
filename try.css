@@ -1,0 +1,394 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    /* margin-top: 50px; */
+    font-family: "roboto";
+    background-color: #3C2A21;
+    color: white;
+    height: 205px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D5CEA3;
+}
+
+.movie-caption {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 50px;
+    color: orangered;
+}
+
+input {
+    padding-left: 16px;
+    max-width: 378px;
+    max-height: 46px;
+    font-size: 30px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border: 0px;
+    width: 100%;
+}
+
+.searchtab {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+
+.search-button {
+    padding-left: 16px;
+    max-height: 46px;
+    font-size: 22px;
+    margin-right: 50px;
+    font-family: "roboto";
+    cursor: pointer;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    padding-right: 15px;
+    color: #3C2A21;
+    background-color: orangered;
+    border: 0px;
+
+}
+
+.search-button:hover {
+    background-color: #3C2A21;
+    color: orangered;
+    border: 2px solid;
+    border-color: orangered
+}
+
+.search-button:active {
+    background-color: orangered;
+    color: #3C2A21;
+}
+
+@media screen and (max-width: 650px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .search-button {
+        margin-right: 10px;
+
+    }
+
+    .movie-caption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .movie-caption {
+        margin: 0px;
+    }
+
+    input {
+        margin-left: 10px;
+        /* margin-right: 10px; */
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1016px) {
+    .movie-caption {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 326px) {
+    .movie-caption {
+        font-size: 15px;
+    }
+}
+
+
+.Filters{
+font-family: "roboto";
+font-size: 40px;
+color:#3C2A21;
+
+}
+
+.total-section{
+    background-color: #D5CEA3;
+    height: 100%;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.selection{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.gapping{
+    display: flex;
+    gap: 30px;
+    column-gap: 30px;
+    padding: 10px;
+}
+
+
+.same{
+    display: flex;
+    gap: 40px;
+    
+}
+
+select{
+    
+        font-size: 20px;
+        font-family: emoji;
+        border: 3px solid;
+        border-color:#3C2A21;
+        background-color: #3C2A21;
+        color: #D5CEA3;
+        
+    
+}
+
+
+.movies-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+
+   
+
+}
+
+.movies-details{
+    background-color: #3C2A21;
+    width: 300px;
+    height: 650px;
+    color: #D5CEA3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+
+    
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.real-image{
+    max-width: 250px;
+    height: 250px;
+    border: 10px solid #D5CEA3;
+    border-radius: 5px;
+
+
+    
+}
+
+.release-date {
+    font-size: 12px;
+    display: flex
+;
+    justify-content: center;
+}
+.Movie-Name {
+    justify-content: center;
+    display: flex;
+    font-size: 23px;
+    margin: 0px;
+    margin-top: 14px;
+    text-align: center;
+}
+.Description {
+    font-style: oblique;
+    font-size: 11px;
+    display: flex
+;
+    justify-content: center;
+    text-align: center;
+}
+.movie-margin{
+    margin: 0px;
+}
+
+.itsRating {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+
+}
+
+.search-movie{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.poster-image {
+    width: 181px;
+    height: 266px;
+}
+
+
+.movie-info {
+    display: flex
+;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-div {
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 503px;
+    margin-top: 39px;
+    background-color: #3C2A21;
+    padding-top: 9px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+
+.image-div {
+    width: 226px;
+    height: 321px;
+    background-color: #D5CEA3;
+    /* margin-top: 20px; */
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+}
+
+.MovieNAME{
+    
+        font-size: 30px;
+        color: beige;
+        font-family: 'Roboto';
+    
+}
+
+.movieYEAR {
+    font-size: 30px;
+    color: beige;
+    font-family: 'Roboto';
+    display: flex
+;
+    justify-content: center;
+}
+
+.textofyear {
+    margin: 0px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.textofmovie {
+    margin: 0px;
+    margin-top: 20px;
+    font-size: 31px;
+}
+.Error-container{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #3C2A21; */
+    height: 100%;
+    width: 100%;
+}
+.itsErrorImage{
+    width: 300px;
+    height: 300px;
+    margin-top: 70px;
+}
+.forDisplayError{
+ display: flex;
+}
+.searched-movie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    gap: 31px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: #3C2A21;
+    color: #D5CEA3;
+    font-family: sans-serif;
+    margin-left: 20px;    
+    margin-right: 20px;
+
+}
+.searched-movie-image img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex
+;
+    justify-self: center;
+}
+
+.Searched-movie-details {
+    flex: 1;
+    min-width: 250px;
+}
+
+@media screen and  (max-width : 701px){
+    .Searched-movie-details {
+
+        text-align: center;
+    }
+
+    .searched-movie {
+display: flex;
+justify-content: center;
+    }
+}
+
+.itshomebutton{
+    margin-right: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
