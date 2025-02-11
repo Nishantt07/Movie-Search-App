@@ -16,7 +16,7 @@ function getSearchQuery() {
 
 async function callanotherapi(inputValue) {
     try {
-        let api = `http://www.omdbapi.com/?s=${inputValue}&apikey=f4c43948`;
+        let api = `https://www.omdbapi.com/?s=${inputValue}&apikey=f4c43948`;
         let fetchit = await fetch(api);
         let convertit = await fetchit.json();
 
